@@ -1,11 +1,42 @@
-<div class="container">
 
-    <app-navbar></app-navbar>
 
-    <h1>Componente principal</h1>
+<!-- Menu Toggle Nav -->
+<app-navbar></app-navbar>
 
-    <router-outlet></router-outlet>
+<div class="super_container">
+
+        <!-- Header -->
+        <app-header></app-header>
+
+        <div class="super_container_inner">
+            <div class="super_overlay"></div>
     
+            <!-- Home -->
+            <div class="home">
+                <!-- Home Slider -->
+                <div class="home_slider_container">
+                    <div class="owl-carousel owl-theme home_slider">                       
+                        <!-- Slide -->
+                    </div>
+                    <!-- Home Slider Dots -->
+                </div>
+
+            </div>
+    
+            <!-- Products -->
+    
+            <!-- Boxes -->
+    
+            <!-- Features -->
+
+
+            <router-outlet></router-outlet>
+            
+            <!-- Footer -->
+            <app-footer></app-footer>
+        </div>
+            
 </div>
+
 
 
